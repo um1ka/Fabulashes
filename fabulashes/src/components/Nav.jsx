@@ -10,7 +10,7 @@ function Nav(props) {
             <Link className='nav_link' to="/lookbook">LookBook</Link>
             <Link className='nav_link' to="/gallery">Gallery</Link>
             <Link className='nav_link' to="/appointment">Appointment</Link>
-            <Link className='nav_link' to="/signup">Signup</Link>
+            
             
         </div>
     );

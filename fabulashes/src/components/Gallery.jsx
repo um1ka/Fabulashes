@@ -31,6 +31,7 @@ function Gallery() {
                         <div className='space'></div>
                         <h2>{value.name}</h2>
                         <img src={value.photo_url}></img>
+                       
                     </div>
                 )
             })}

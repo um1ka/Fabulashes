@@ -9,16 +9,42 @@ img{
 .nav{
   width: 100%;
   height: 100px;
-  background: black;
+  background: #a12051;
   display: flex;
   justify-content: space-around;
   padding-top: 60px;
   font-size: 20px;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   position: fixed;
   margin-top: -30px;
-  
+}
+.gallery_card{ 
+}
 
+.input{
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+  margin-left: 30px;
+  border: none;
+
+}
+.text{
+  width: 800px;
+  margin: auto;
+  
+}
+.select_input{
+  margin-right: -60px;
+
+  width: 200px;
+}
+.time_input{
+  margin-right: 32px;
+ 
+}
+.date_input{
+  margin-right: -2px;
 }
 .nav_link{
   text-decoration: none;
@@ -26,5 +52,17 @@ img{
   color: white;
 }
 .space{
-  height: 120px;
+  height: 140px;
+}
+.booking_form{
+  width: 500px;
+  height: 600px;
+  /* background: rgb(19,38,79);
+background: linear-gradient(180deg, rgba(19,38,79,1) 0%, rgba(22,147,198,1) 52%, rgba(255,255,255,1) 87%); */
+background: rgb(161,32,81);
+background: linear-gradient(180deg, rgba(161,32,81,1) 0%, rgba(204,135,157,1) 52%, rgba(255,255,255,1) 87%);
+margin: auto;
+}
+.form_h2{
+  padding-top: 30px;
 }

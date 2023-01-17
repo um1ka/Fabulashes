@@ -27,7 +27,9 @@ function LookBook() {
         <div className='lookbook'>
             {lookbook.map((value) => {
                 return (
+                    
                     <div className='lookbook_card' key={value.id} onClick={()=>goToLookbook(value)}>
+                       <div className='space'></div>
                         <h2>{value.name}</h2>
                         <p>{value.description}</p>
                         <img src={value.photo_url}></img>
